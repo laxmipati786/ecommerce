@@ -1,8 +1,8 @@
 <?php
-define('DB_SERVER','sql309.infinityfree.com');
-define('DB_USER','if0_38835279');
-define('DB_PASS' ,'Nancy098');
-define('DB_NAME', 'if0_38835279_ecommerce');
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASS' ,'');
+define('DB_NAME', 'ecommerce');
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 // Check connection
 if (mysqli_connect_errno())
